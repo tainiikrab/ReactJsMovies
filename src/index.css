@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.content{
+  min-height: calc(100vh - 70px - 64px);
+}
+.movies{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 
+  minmax(200px, 1fr));
+  gap: 1rem;
+}
+.search-btn{
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+span{
+  padding-right: 25px;
+  padding-left: 25px !important;
+}
+.nothing{
+  min-width: 100%;
+}
